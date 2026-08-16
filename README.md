@@ -1,8 +1,10 @@
 # session-deck
 
+[![CI](https://github.com/dylanpulver/session-deck/actions/workflows/ci.yml/badge.svg)](https://github.com/dylanpulver/session-deck/actions/workflows/ci.yml)
+
 **Mission control for parallel Claude Code sessions — your agents, on one screen.**
 
-![session-deck dashboard](assets/screenshot.png)
+![Animated demo: session cards updating live — a new session card appears, two sessions flash as their intents change, one fades to stale, and one leaves the board](assets/demo.gif)
 
 Run three Claude Code sessions at once and they're invisible to each other — and mostly to
 you. session-deck is a live local dashboard for the session presence board from
