@@ -1,0 +1,33 @@
+{
+  "name": "session-deck",
+  "version": "1.0.0",
+  "description": "Mission control for parallel Claude Code sessions — a live local dashboard for the agent-ops session board",
+  "keywords": [
+    "claude-code",
+    "agents",
+    "dashboard",
+    "sse",
+    "session-board",
+    "mission-control"
+  ],
+  "homepage": "https://github.com/dylanpulver/session-deck",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanpulver/session-deck.git"
+  },
+  "license": "MIT",
+  "author": "Dylan Pulver",
+  "bin": {
+    "session-deck": "bin/session-deck.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/session-deck.js",
+    "test": "node --test"
+  }
+}
