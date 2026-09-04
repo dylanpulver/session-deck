@@ -95,3 +95,7 @@ npm test   # node:test, zero dev-dependencies either
 ## License
 
 [MIT](LICENSE)
+
+---
+
+Built by [Dylan Pulver](https://dylanpulver.com), software engineer and entrepreneur in Toronto.
