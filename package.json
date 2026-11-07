@@ -1,5 +1,5 @@
 {
-  "name": "session-deck",
+  "name": "@dylanpulver/session-deck",
   "version": "1.0.0",
   "description": "Mission control for parallel Claude Code sessions — a live local dashboard for the agent-ops session board",
   "keywords": [
@@ -29,5 +29,8 @@
   "scripts": {
     "start": "node bin/session-deck.js",
     "test": "node --test"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
